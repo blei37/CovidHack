@@ -1,0 +1,25 @@
+.navbar-Container{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.navbar-logo{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.navbar-List{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    list-style-type: none;
+}
+
+.navbar-item{
+    margin-left: 5em;
+    margin-right:5em;
+}

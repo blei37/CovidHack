@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./navbar.css";
 //import { Router } from "@reach/router";
 
 /**
@@ -16,15 +17,15 @@ class NavBar extends Component {
     return (
       // <> is like a <div>, but won't show
       // up in the DOM tree
-      <div>
-          <div>
-              COVID Hack Thing
+      <div className = "navbar-Container">
+          <div className = "navbar-logo">
+              <strong>COVID Hack Thing</strong>
           </div>
-          <nav>
-            <ul>
-                <li>Schedule Testing</li>
-                <li>COVID Guidelines</li>
-                <li>Profile</li>
+          <nav className = "navbar-link-Container">
+            <ul className ="navbar-List">
+                <li className = "navbar-item">Schedule Testing</li>
+                <li className = "navbar-item">COVID Guidelines</li>
+                <li className = "navbar-item">Profile</li>
             </ul>
           </nav>
       </div>
